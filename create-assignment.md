@@ -16,14 +16,16 @@
 
 Далее, вводим название курса. Его можно узнать из файла `.config` вашего курса.<br>
 Параметр `name`
-![](./img/create-assignment-3.png)
+![](./img/create-assignment-4.png)
 
 Теперь создаем `assignment`
-![](./img/create-assignment-4.png)
+![](./img/create-assignment-3.png)
 
 `Title` должен быть в формате: <br>
 `[lesson-name]-[course-name]-task` <br>
-Пример: `01-intro-js-intro-task`<br>
+
+Если название урока `01-intro`, достаточно имени без номера. <br>
+Пример: `intro-js-intro-task`<br>
 Все параметры можно получить в репозитории курса
 ![](./img/create-assignment-6.png)
 
