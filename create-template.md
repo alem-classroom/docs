@@ -5,7 +5,7 @@
 Формат названия репозитория
 
 `[lesson-name]-[course-name]`<br>
-Пример: `01-intro-js-intro`<br>
+Пример: `intro-js-intro`<br>
 
 ## JS project struct
 [js template example](https://github.com/alem-classroom/js-template)
