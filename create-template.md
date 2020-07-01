@@ -8,16 +8,29 @@
 Пример: `01-intro-js-intro`<br>
 
 ## JS project struct
+[js template example](https://github.com/alem-classroom/js-template)
 
 ```
-|__ courses
+|__ lesson-name-course-name
     |__ .github
         |-- workflows
             |-- main.yml
-    |__ test [0]
+    |__ test
         |-- test.js
     |__ package.json
     |__ *.json
+    |__ README.md
 ```
 
 ## Python project struct
+[python template example](https://github.com/alem-classroom/python-template)
+```
+|__ lesson-name-course-name
+    |__ .github
+        |-- workflows
+            |-- main.yml
+    |__ *_test.py
+    |__ *.py
+    |__ requirements.txt
+    |__ README.md
+```
