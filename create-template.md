@@ -1,36 +1,44 @@
 # Создание template для проекта
 
-Репозиторий с проектом должен находиться в организации [alem-classroom](https://github.com/alem-classroom)
+Для создания проекта нам нужно выбрать курс. <br>
+Примером будем `python-introduction`
 
-Формат названия репозитория
-
-`[lesson-name]-[course-name]`<br>
-Пример: `intro-js-intro`<br>
+Репозиторий с `template` и `test` курса должен находиться в организации [alem-classroom](https://github.com/alem-classroom)
 
 ## JS project struct
-[js template example](https://github.com/alem-classroom/js-template)
+[js template example](https://github.com/alem-classroom/template-js-intro) <br>
+[js test example](https://github.com/alem-classroom/test-js-intro)
 
 ```
-|__ lesson-name-course-name
+|__ template-course-name
     |__ .github
         |-- workflows
             |-- main.yml
-    |__ test
-        |-- test.js
-    |__ package.json
-    |__ *.json
-    |__ README.md
+    |__ lesson-name
+        |-- file.js
+```
+
+```
+|__ test-course-name
+    |__ test-lesson-name
+        |-- test-file.js
 ```
 
 ## Python project struct
-[python template example](https://github.com/alem-classroom/python-template)
+[python template example](https://github.com/alem-classroom/template-python-introduction) <br>
+[python test example](https://github.com/alem-classroom/test-python-introduction)
+
 ```
-|__ lesson-name-course-name
+|__ template-course-name
     |__ .github
         |-- workflows
             |-- main.yml
-    |__ *_test.py
-    |__ *.py
-    |__ requirements.txt
-    |__ README.md
+    |__ lesson-name
+        |-- file.py
+```
+
+```
+|__ test-course-name
+    |__ test-lesson-name
+        |-- test-file.py
 ```
